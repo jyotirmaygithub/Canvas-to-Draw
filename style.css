@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.universal{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.universal-flex{
+    display: flex;
+    gap: 8%;
+}
+.universal-button{
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 30px;
+    cursor: pointer;
+}
+:root{
+    --borderline :#3498DB;
+    --boxcolor: #2874A6;
+}
+canvas{
+    border: 1px solid var(--borderline);
+}
+.function-container{
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-between;
+    background-color: var(--boxcolor);
+    padding: 16px;
+}
+.input-color{
+    width: 160px;
+    height: 70px;
+}
+.span-color{
+    color: white;
+    cursor: none;
+}
